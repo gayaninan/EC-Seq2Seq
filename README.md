@@ -11,7 +11,7 @@ The models were fine-tuned using the [Hugging Face](https://huggingface.co) and 
 The `train` data consists of PubMed abstracts generated for three self-supervision tasks (summarisarion, paraphrasing and masking). 
 The `test` data contains role-playing clinical conversations provided by NHS Grampian (available upon request). 
 
-Note: The fine-tuned models and the train dataset are available on Hugging Face as part of a [collection] (https://huggingface.co/collections/gayanin/ec-seq2seq-670bf24153dcd91dc51b5c5a). To access and use them, visit the collection and download or load the models and datasets directly into your environment.
+Note: The fine-tuned models and the train dataset are available on Hugging Face as part of a collection (https://huggingface.co/collections/gayanin/ec-seq2seq-670bf24153dcd91dc51b5c5a). To access and use them, visit the collection and download or load the models and datasets directly into your environment.
 
 ## Configuration
 
@@ -21,7 +21,7 @@ Configurations for models, evaluation scenarios, objectives, and training settin
 
 ### 1. Install Dependencies
 
-Run the following command to install required libraries:
+Run the following command to install the required libraries:
 
 ```bash
 pip3 install -r requirements.txt  
@@ -57,7 +57,7 @@ The script:
 
 ## Citation
 ```
- @article{lewis2019bart,
+ @article{Nanayakkara2023,
     title = {Clinical Dialogue Transcription Error Correction Using Seq2Seq Models},
     author = {Nanayakkara, Gayani and Wiratunga, Nirmalie and Corsar, David and Martin, Kyle and Wijekoon, Anjana},
     bookTitle="Multimodal AI in Healthcare: A Paradigm Shift in Health Intelligence",
