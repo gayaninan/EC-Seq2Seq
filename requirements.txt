@@ -1,0 +1,7 @@
+transformers
+sentencepiece
+dataset
+jiwer
+rouge-score
+nltk
+git-lfs

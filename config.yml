@@ -1,0 +1,41 @@
+huggingface:
+  model_repo: "username/repository-name"        # Replace with your Hugging Face model repo
+  api_token: "huggingface_token"            # Optionally, set it here or log in separately
+
+models:
+  bart:
+    small: "facebook/bart-small"
+    base: "facebook/bart-base"
+    large: "facebook/bart-large"
+  t5:
+    small: "t5-small"
+    large: "t5-large"
+
+objectives:
+  summarisation: "dataset-name"
+  paraphrasing: "dataset-name"
+  mask_filling: "dataset-name"       
+
+training:
+  learning_rate: 2e-5
+  batch_size: 4
+  epochs: 3
+  weight_decay: 0.01
+  test_size: 0.1
+
+evaluation_scenarios:
+  - model_type: bart
+    model_size: small
+    objective: summarisation
+  - model_type: bart
+    model_size: base
+    objective: summarisation
+  - model_type: bart
+    model_size: large
+    objective: paraphrasing
+  - model_type: t5
+    model_size: small
+    objective: mask_filling
+  - model_type: t5
+    model_size: large
+    objective: summarisation
