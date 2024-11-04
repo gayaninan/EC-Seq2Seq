@@ -16,7 +16,7 @@ The models were fine-tuned using the [Hugging Face](https://huggingface.co) and 
 The `train` data consists of PubMed abstracts generated for three self-supervision tasks (summarisarion, paraphrasing and masking). 
 The `test` data contains role-playing clinical conversations provided by NHS Grampian (available upon request). 
 
-Note: The fine-tuned models and the train dataset are available on Hugging Face as part of a collection (https://huggingface.co/collections/gayanin/ec-seq2seq-670bf24153dcd91dc51b5c5a). To access and use them, visit the collection and download or load the models and datasets directly into your environment.
+Note: The fine-tuned models and the train dataset are available on Hugging Face as part of a collection [EC-Seq2Seq](https://huggingface.co/collections/gayanin/ec-seq2seq-670bf24153dcd91dc51b5c5a). To access and use them, visit the collection and download or load the models and datasets directly into your environment.
 
 ## Configuration
 
