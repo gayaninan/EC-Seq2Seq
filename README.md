@@ -1,5 +1,10 @@
 # Clinical Dialogue Transcription Error Correction Using Seq2Seq Models
 
+## Overview
+This work introduces a seq2seq learning approach for clinical dialogue transcription error correction. Given the limited availability of clinical dialogue data, we proposed a method that leverages publicly available medical domain data, such as PubMed, to fine-tune a large language model (LLM) in a self-supervised manner. This approach allows for effective adaptation of general-purpose seq2seq models to the specific needs of transcription error correction in the clinical domain.
+
+![Architecture Diagram](images/architecture-diagram.jpg)
+
 ## Experiment Setup
 
 This project evaluates different varients of two pre-trained language models, [T5](https://dl.acm.org/doi/abs/10.5555/3455716.3455856) and [BART](https://aclanthology.org/2020.acl-main.703).
